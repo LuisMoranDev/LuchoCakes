@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main {
+  background-color: #f3f9fb;
+  height: 100vh;
+  font-family: 'Kaushan Script', cursive;
+  color: #ff5e3a;
+}
+
+#main h1 {
+  padding-top: 10%;
+  font-size: 8em;
+  text-align: center;
+}
+
+#main ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#main ul li {
+  font-size: 2.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#main ul li a {
+  text-decoration: none;
+  color: #ff5e3a;
+}
+
+#main ul li a:hover {
+  color: #9d0b0b;
+}
+/*# sourceMappingURL=main.css.map */

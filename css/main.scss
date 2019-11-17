@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+#main{  
+    background-color: #f3f9fb;
+    height: 100vh;
+    font-family: 'Kaushan Script', cursive;
+    color: #ff5e3a;
+
+    
+        h1{
+            padding-top: 10%;
+            font-size: 8em;
+            text-align:  center;
+        }
+
+        ul{
+            justify-content: center;
+            display: flex;
+            list-style: none;
+
+                li{
+                    font-size: 2.5em;
+                    margin: 0.5em;
+                    padding: 0.5em;
+
+                    a{
+                        text-decoration: none;
+                        color: #ff5e3a;
+                    }
+                    a:hover{
+                        color: #9d0b0b;
+                    }
+                }
+
+
+        }
+}
