@@ -1,20 +1,39 @@
+$desktop: 750px; 
+
+@mixin desktop {
+    @media screen and (max-width: #{$desktop}){
+      @content;
+    }
+  }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
 }
-
+body{
+    @include desktop{
+        background-color: #f3f9fb;
+    }
+}
 #main{  
     background-color: #f3f9fb;
     height: 100vh;
     font-family: 'Kaushan Script', cursive;
     color: #ff5e3a;
 
+    // @include desktop{
+    //     height: 100%; 
+    // }
+
     
         h1{
             padding-top: 10%;
             font-size: 8em;
             text-align:  center;
+            @include desktop{
+                padding-top: 20%;
+                font-size: 2em;
+            }
         }
 
         ul{
@@ -26,6 +45,10 @@
                     font-size: 2.5em;
                     margin: 0.5em;
                     padding: 0.5em;
+
+                    @include desktop{
+                        font-size: 1em;
+                    }
 
                     a{
                         text-decoration: none;
